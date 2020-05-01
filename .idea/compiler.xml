@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="center_security" />
+        <module name="common" />
+        <module name="admin" />
+        <module name="center_server" />
+        <module name="portal" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="admin" target="1.8" />
+      <module name="center_security" target="1.8" />
+      <module name="center_server" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="portal" target="1.8" />
+      <module name="sunshine" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin" options="-parameters" />
+      <module name="center_security" options="-parameters" />
+      <module name="center_server" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="portal" options="-parameters" />
+      <module name="sunshine" options="-parameters" />
+    </option>
+  </component>
+</project>
