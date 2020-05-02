@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="center_security:war">
+    <output-path>$PROJECT_DIR$/center_security/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>center_security</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="center_security-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="center_security:war exploded" />
+    </root>
+  </artifact>
+</component>

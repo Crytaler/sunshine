@@ -1,0 +1,465 @@
+2020-05-02 15:52:06,511 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 2208 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 15:52:06,513 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 15:52:07,504 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 15:52:07,512 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 15:52:07,513 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 15:52:07,567 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 15:52:07,567 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1022 ms
+2020-05-02 15:52:07,816 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 15:52:08,365 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+2020-05-02 15:52:08,372 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-02 15:52:08,378 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 15:52:22,900 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 2228 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 15:52:22,903 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 15:52:23,957 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 15:52:23,964 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 15:52:23,964 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 15:52:24,015 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 15:52:24,016 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1077 ms
+2020-05-02 15:52:24,257 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 15:52:24,794 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 15:52:24,797 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 2.306 seconds (JVM running for 2.758)
+2020-05-02 15:52:38,972 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 15:52:38,972 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 15:52:38,979 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 7 ms
+2020-05-02 15:52:39,001 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/test
+2020-05-02 15:52:39,003 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-02 15:52:39,004 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：test
+2020-05-02 15:52:39,010 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-02 15:52:39,025 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"who":"me"}
+2020-05-02 15:52:39,026 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：16毫秒
+2020-05-02 15:52:39,040 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：CHROME8，【操作系统】：MAC_OS_X，【原始User-Agent】：Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+2020-05-02 15:54:01,672 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 16:41:27,120 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 3373 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 16:41:27,122 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 16:41:28,192 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 16:41:28,198 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 16:41:28,199 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 16:41:28,252 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 16:41:28,252 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1094 ms
+2020-05-02 16:41:28,496 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 16:41:29,037 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+2020-05-02 16:41:29,042 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-02 16:41:29,048 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 16:41:40,771 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 3384 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 16:41:40,774 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 16:41:41,864 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 16:41:41,871 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 16:41:41,871 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 16:41:41,925 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 16:41:41,925 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1111 ms
+2020-05-02 16:41:42,177 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 16:41:42,732 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 16:41:42,735 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 2.384 seconds (JVM running for 2.83)
+2020-05-02 16:42:51,241 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 16:42:55,176 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 3409 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 16:42:55,178 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 16:42:56,306 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 16:42:56,314 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 16:42:56,314 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 16:42:56,368 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 16:42:56,369 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1152 ms
+2020-05-02 16:42:56,623 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 16:42:57,166 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 16:42:57,169 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 2.434 seconds (JVM running for 2.911)
+2020-05-02 16:43:05,615 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 16:43:05,616 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 16:43:05,622 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 6 ms
+2020-05-02 16:43:05,638 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/json
+2020-05-02 16:43:05,640 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-02 16:43:05,641 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：jsonException
+2020-05-02 16:43:05,646 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-02 16:43:09,135 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/json
+2020-05-02 16:43:09,136 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-02 16:43:09,136 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：jsonException
+2020-05-02 16:43:09,136 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-02 16:56:15,470 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 16:56:24,531 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 3739 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 16:56:24,534 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 16:56:25,793 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 16:56:25,802 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 16:56:25,802 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 16:56:25,864 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 16:56:25,864 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1285 ms
+2020-05-02 16:56:26,600 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-02 16:56:26,742 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 16:56:27,018 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-02 16:56:27,028 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-02 16:56:27,056 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-02 16:56:27,181 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 16:56:27,185 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 3.339 seconds (JVM running for 4.048)
+2020-05-02 16:57:08,424 [http-nio-8080-exec-2] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 16:57:08,425 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 16:57:08,433 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 8 ms
+2020-05-02 16:57:08,454 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/test
+2020-05-02 16:57:08,455 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-02 16:57:08,456 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：test
+2020-05-02 16:57:08,463 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-02 17:04:40,631 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:04:45,095 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 3920 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:04:45,097 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:04:46,293 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:04:46,300 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:04:46,300 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:04:46,358 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:04:46,358 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1221 ms
+2020-05-02 17:04:46,405 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.keeper.national.admin.service.UserMapperService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2020-05-02 17:04:46,407 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+2020-05-02 17:04:46,419 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-02 17:05:25,323 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 3939 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:05:25,325 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:05:26,599 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:05:26,606 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:05:26,606 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:05:26,663 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:05:26,664 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1298 ms
+2020-05-02 17:05:26,711 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userMapperService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.keeper.national.admin.service.UserMapperService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-05-02 17:05:26,713 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+2020-05-02 17:05:26,725 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-02 17:12:22,316 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 4111 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:12:22,319 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:12:23,453 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:12:23,460 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:12:23,460 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:12:23,516 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:12:23,516 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1116 ms
+2020-05-02 17:12:23,562 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userMapperService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.keeper.national.admin.service.UserMapperService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-05-02 17:12:23,564 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+2020-05-02 17:12:23,576 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-02 17:15:37,818 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 4178 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:15:37,821 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:15:38,698 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:15:38,707 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:15:38,707 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:15:38,789 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:15:38,789 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 923 ms
+2020-05-02 17:15:38,825 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userMapperService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.keeper.national.admin.service.UserMapperService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-05-02 17:15:38,828 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+2020-05-02 17:15:38,840 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-02 17:21:59,073 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 4365 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:21:59,083 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:21:59,718 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] Logger.java:44 - No MyBatis mapper was found in '[com.keeper.national.admin.mapper]' package. Please check your configuration.
+2020-05-02 17:22:00,070 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:22:00,078 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:22:00,078 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:22:00,153 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:22:00,153 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1009 ms
+2020-05-02 17:22:00,289 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:22:00,567 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 17:22:00,570 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 1.934 seconds (JVM running for 2.383)
+2020-05-02 17:22:17,753 [http-nio-8080-exec-2] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 17:22:17,754 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 17:22:17,758 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 4 ms
+2020-05-02 17:23:51,836 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:23:55,743 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 4413 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:23:55,747 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:23:56,329 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] Logger.java:44 - No MyBatis mapper was found in '[com.keeper.national.admin.mapper]' package. Please check your configuration.
+2020-05-02 17:23:56,657 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:23:56,665 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:23:56,665 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:23:56,737 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:23:56,738 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 947 ms
+2020-05-02 17:23:56,861 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:23:57,137 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 17:23:57,140 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 1.822 seconds (JVM running for 2.281)
+2020-05-02 17:24:08,158 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 17:24:08,159 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 17:24:08,165 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 6 ms
+2020-05-02 17:25:00,122 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:25:05,503 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 4440 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:25:05,505 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:25:06,113 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] Logger.java:44 - No MyBatis mapper was found in '[com.keeper.national.admin.mapper]' package. Please check your configuration.
+2020-05-02 17:25:06,447 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:25:06,454 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:25:06,455 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:25:06,533 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:25:06,533 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 980 ms
+2020-05-02 17:25:06,659 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:25:06,925 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 17:25:06,928 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 1.84 seconds (JVM running for 2.287)
+2020-05-02 17:25:20,030 [http-nio-8080-exec-2] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 17:25:20,031 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 17:25:20,035 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 4 ms
+2020-05-02 17:25:55,666 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:25:59,815 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 4459 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:25:59,819 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:26:00,381 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] Logger.java:44 - No MyBatis mapper was found in '[com.keeper.national.admin.mapper]' package. Please check your configuration.
+2020-05-02 17:26:00,667 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:26:00,674 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:26:00,674 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:26:00,741 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:26:00,741 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 877 ms
+2020-05-02 17:26:00,865 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:26:01,134 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 17:26:01,138 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 1.819 seconds (JVM running for 2.414)
+2020-05-02 17:26:06,117 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 17:26:06,118 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 17:26:06,123 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 5 ms
+2020-05-02 17:26:17,451 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:26:20,034 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 4472 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:26:20,037 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:26:20,654 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] Logger.java:44 - No MyBatis mapper was found in '[com.keeper.national.admin.mapper]' package. Please check your configuration.
+2020-05-02 17:26:20,976 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8088 (http)
+2020-05-02 17:26:20,983 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:26:20,984 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:26:21,057 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:26:21,057 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 974 ms
+2020-05-02 17:26:21,184 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:26:21,458 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8088 (http) with context path ''
+2020-05-02 17:26:21,462 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 1.855 seconds (JVM running for 2.3)
+2020-05-02 17:26:28,079 [http-nio-8088-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 17:26:28,079 [http-nio-8088-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 17:26:28,084 [http-nio-8088-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 5 ms
+2020-05-02 17:27:03,895 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:27:07,733 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 4495 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:27:07,737 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:27:08,313 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] Logger.java:44 - No MyBatis mapper was found in '[com.keeper.national.admin.mapper]' package. Please check your configuration.
+2020-05-02 17:27:08,644 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:27:08,652 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:27:08,652 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:27:08,728 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:27:08,728 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 941 ms
+2020-05-02 17:27:08,857 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:27:09,129 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 17:27:09,132 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 1.823 seconds (JVM running for 2.29)
+2020-05-02 17:27:22,877 [http-nio-8080-exec-2] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 17:27:22,877 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 17:27:22,882 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 5 ms
+2020-05-02 17:27:57,071 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:28:01,074 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 4516 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:28:01,078 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:28:01,883 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] Logger.java:44 - No MyBatis mapper was found in '[com.keeper.national.admin.mapper]' package. Please check your configuration.
+2020-05-02 17:28:02,216 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:28:02,223 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:28:02,224 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:28:02,282 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:28:02,282 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1160 ms
+2020-05-02 17:28:02,527 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-02 17:28:02,594 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:28:02,876 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-02 17:28:02,887 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-02 17:28:02,913 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-02 17:28:03,079 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 17:28:03,082 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 2.47 seconds (JVM running for 3.063)
+2020-05-02 17:28:08,420 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 17:28:08,421 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 17:28:08,426 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 5 ms
+2020-05-02 17:28:26,428 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:28:30,603 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 4529 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:28:30,606 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:28:31,420 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] Logger.java:44 - No MyBatis mapper was found in '[com.keeper.national.admin.mapper]' package. Please check your configuration.
+2020-05-02 17:28:31,752 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:28:31,759 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:28:31,759 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:28:31,817 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:28:31,818 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1156 ms
+2020-05-02 17:28:32,061 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-02 17:28:32,133 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:28:32,406 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-02 17:28:32,417 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-02 17:28:32,444 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-02 17:28:32,485 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 17:28:32,489 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 2.331 seconds (JVM running for 2.793)
+2020-05-02 17:28:49,341 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 17:28:49,341 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 17:28:49,346 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 5 ms
+2020-05-02 17:31:11,481 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:31:28,541 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 4607 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:31:28,545 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:31:29,262 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] Logger.java:44 - No MyBatis mapper was found in '[com.keeper.national.admin.mapper]' package. Please check your configuration.
+2020-05-02 17:31:29,571 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:31:29,578 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:31:29,579 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:31:29,647 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:31:29,647 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1020 ms
+2020-05-02 17:31:29,908 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-02 17:31:29,982 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:31:30,254 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-02 17:31:30,264 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-02 17:31:30,288 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-02 17:31:30,428 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 17:31:30,431 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 2.402 seconds (JVM running for 3.024)
+2020-05-02 17:31:39,630 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 17:31:39,630 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 17:31:39,634 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 4 ms
+2020-05-02 17:34:27,368 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:34:31,756 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 4665 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:34:31,760 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:34:32,481 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] Logger.java:44 - No MyBatis mapper was found in '[com.keeper.national.admin.mapper]' package. Please check your configuration.
+2020-05-02 17:34:32,798 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:34:32,805 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:34:32,806 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:34:32,868 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:34:32,869 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1026 ms
+2020-05-02 17:34:33,123 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-02 17:34:33,200 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:34:33,479 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-02 17:34:33,489 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-02 17:34:33,513 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-02 17:34:33,651 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 17:34:33,654 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 2.397 seconds (JVM running for 3.052)
+2020-05-02 17:34:39,668 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 17:34:39,668 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 17:34:39,673 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 5 ms
+2020-05-02 17:36:19,673 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:56:16,017 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 5102 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:56:16,020 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:56:17,119 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:56:17,126 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:56:17,126 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:56:17,184 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:56:17,185 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1129 ms
+2020-05-02 17:56:17,797 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-02 17:56:17,931 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:56:18,290 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-02 17:56:18,299 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-02 17:56:18,324 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-02 17:56:18,455 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 17:56:18,458 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 3.049 seconds (JVM running for 3.888)
+2020-05-02 17:56:25,147 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 17:56:25,147 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 17:56:25,154 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 7 ms
+2020-05-02 17:56:25,175 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/test
+2020-05-02 17:56:25,175 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-02 17:56:25,177 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：test
+2020-05-02 17:56:25,183 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-02 17:56:25,199 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"who":"me"}
+2020-05-02 17:56:25,199 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：16毫秒
+2020-05-02 17:56:25,213 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：UNKNOWN，【操作系统】：UNKNOWN，【原始User-Agent】：PostmanRuntime/7.6.0
+2020-05-02 17:57:02,252 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/user
+2020-05-02 17:57:02,252 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-02 17:57:02,253 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：getUser
+2020-05-02 17:57:02,253 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-02 17:57:11,345 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/user
+2020-05-02 17:57:11,345 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-02 17:57:11,346 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：getUser
+2020-05-02 17:57:11,346 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-02 17:58:27,935 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 17:58:33,380 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 5152 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:58:33,383 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:58:34,623 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:58:34,630 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:58:34,630 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:58:34,691 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:58:34,691 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1219 ms
+2020-05-02 17:58:34,737 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userMapperService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.keeper.national.admin.service.UserMapperService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-05-02 17:58:34,739 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+2020-05-02 17:58:34,751 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-02 17:59:38,093 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 5176 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 17:59:38,095 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 17:59:39,426 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 17:59:39,433 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 17:59:39,433 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 17:59:39,489 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 17:59:39,490 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1338 ms
+2020-05-02 17:59:39,536 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userMapperService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.keeper.national.admin.service.UserMapperService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-05-02 17:59:39,538 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+2020-05-02 17:59:39,550 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-02 18:01:02,694 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 5207 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 18:01:02,698 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 18:01:03,447 [main] WARN  [org.mybatis.spring.mapper.ClassPathMapperScanner] Logger.java:44 - No MyBatis mapper was found in '[com.keeper.national.admin]' package. Please check your configuration.
+2020-05-02 18:01:03,908 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 18:01:03,914 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 18:01:03,915 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 18:01:03,971 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 18:01:03,972 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1201 ms
+2020-05-02 18:01:04,018 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userMapperService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.keeper.national.admin.service.UserMapperService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-05-02 18:01:04,020 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+2020-05-02 18:01:04,032 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-02 18:02:01,139 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 5229 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 18:02:01,143 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 18:02:02,525 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 18:02:02,532 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 18:02:02,533 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 18:02:02,594 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 18:02:02,595 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1394 ms
+2020-05-02 18:02:02,651 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userMapperService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.keeper.national.admin.service.UserMapperService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-05-02 18:02:02,655 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+2020-05-02 18:02:02,667 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-02 18:02:38,867 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 5249 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 18:02:38,871 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 18:02:40,121 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 18:02:40,128 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 18:02:40,128 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 18:02:40,186 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 18:02:40,186 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1282 ms
+2020-05-02 18:02:40,232 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userMapperService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.keeper.national.admin.service.UserMapperService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-05-02 18:02:40,234 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+2020-05-02 18:02:40,246 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-02 18:05:02,016 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 5311 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 18:05:02,019 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 18:05:03,300 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 18:05:03,307 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 18:05:03,307 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 18:05:03,363 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 18:05:03,364 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1309 ms
+2020-05-02 18:05:04,059 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-02 18:05:04,186 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 18:05:04,439 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-02 18:05:04,450 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-02 18:05:04,480 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-02 18:05:04,631 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 18:05:04,635 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 3.084 seconds (JVM running for 3.667)
+2020-05-02 18:05:09,803 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 18:05:09,803 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 18:05:09,811 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 8 ms
+2020-05-02 18:05:09,828 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/user
+2020-05-02 18:05:09,828 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-02 18:05:09,830 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：getUser
+2020-05-02 18:05:09,835 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-02 18:05:09,884 [http-nio-8080-exec-1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2020-05-02 18:05:09,987 [http-nio-8080-exec-1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2020-05-02 18:05:10,031 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":[{"gender":0,"name":"test","id":1},{"gender":1,"name":"test1","id":2}],"message":"操作成功"}
+2020-05-02 18:05:10,031 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：195毫秒
+2020-05-02 18:05:10,044 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：UNKNOWN，【操作系统】：UNKNOWN，【原始User-Agent】：PostmanRuntime/7.6.0
+2020-05-02 18:06:18,294 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 18:06:18,297 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2020-05-02 18:06:18,306 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2020-05-02 18:06:22,338 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 5339 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-02 18:06:22,340 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-02 18:06:23,608 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-02 18:06:23,615 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-02 18:06:23,615 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-02 18:06:23,673 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-02 18:06:23,674 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1295 ms
+2020-05-02 18:06:24,358 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-02 18:06:24,484 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-02 18:06:24,734 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-02 18:06:24,744 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-02 18:06:24,772 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-02 18:06:24,918 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-02 18:06:24,921 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 2.999 seconds (JVM running for 3.476)
+2020-05-02 18:06:37,156 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-02 18:06:37,157 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-02 18:06:37,165 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 8 ms
+2020-05-02 18:07:04,444 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/user
+2020-05-02 18:07:04,445 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-02 18:07:04,446 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：getUser
+2020-05-02 18:07:04,452 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-02 18:07:04,498 [http-nio-8080-exec-7] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2020-05-02 18:07:04,600 [http-nio-8080-exec-7] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2020-05-02 18:07:04,642 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":[{"gender":0,"name":"test","id":1},{"gender":1,"name":"test1","id":2}],"message":"操作成功"}
+2020-05-02 18:07:04,643 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：190毫秒
+2020-05-02 18:07:04,656 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：SAFARI，【操作系统】：MAC_OS_X，【原始User-Agent】：Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15

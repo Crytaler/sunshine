@@ -3,7 +3,7 @@ package com.keeper.national.admin.mapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.keeper.national.admin.domain.User;
 import org.apache.ibatis.annotations.Mapper;
-import org.springframework.stereotype.Component;
+
 
 import java.util.List;
 
@@ -15,7 +15,6 @@ import java.util.List;
  * @Version 1.0
  **/
 @Mapper
-@Component
 public interface UserMapper extends BaseMapper<User> {
 
     List<User> selectUser();

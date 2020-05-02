@@ -1,5 +1,7 @@
 package com.keeper.national.common.util;
 
+import com.keeper.national.common.exception.BaseException;
+
 /**
  * @ClassName ResponseResult
  * @Descriptino 全局返回实体
@@ -13,10 +15,10 @@ public class ResponseResult<T> {
     private String message;
     private T data;
 
-    protected ResponseResult() {
+    public ResponseResult() {
     }
 
-    protected ResponseResult(long code, String message, T data) {
+    public ResponseResult(long code, String message, T data) {
         this.code = code;
         this.message = message;
         this.data = data;
@@ -100,6 +102,43 @@ public class ResponseResult<T> {
      */
     public static <T> ResponseResult<T> forbidden(T data) {
         return new ResponseResult<T>(ResultCode.FORBIDDEN.getCode(), ResultCode.FORBIDDEN.getMessage(), data);
+    }
+
+
+
+    /**
+     * 构造一个异常且带数据的API返回
+     *
+     * @param t    异常
+     * @param data 返回数据
+     * @param <T>  {@link BaseException} 的子类
+     * @return ApiResponse
+     */
+    public static <T extends BaseException> ResponseResult ofException(T t, Object data) {
+        return of(t.getCode(), t.getMessage(), data);
+    }
+
+    /**
+     * 构造一个异常且带数据的API返回
+     *
+     * @param t   异常
+     * @param <T> {@link BaseException} 的子类
+     * @return ApiResponse
+     */
+    public static <T extends BaseException> ResponseResult ofException(T t) {
+        return ofException(t, null);
+    }
+
+    /**
+     * 构造一个自定义的API返回
+     *
+     * @param code    状态码
+     * @param message 返回内容
+     * @param data    返回数据
+     * @return ApiResponse
+     */
+    public static ResponseResult of(Integer code, String message, Object data) {
+        return new ResponseResult(code, message, data);
     }
 
     public long getCode() {
