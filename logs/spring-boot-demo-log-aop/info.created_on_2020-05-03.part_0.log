@@ -1,0 +1,424 @@
+2020-05-03 14:06:44,826 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 1206 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-03 14:06:44,829 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-03 14:06:45,645 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-03 14:06:45,647 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-03 14:06:45,671 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-05-03 14:06:46,356 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-03 14:06:46,366 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-03 14:06:46,367 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-03 14:06:46,460 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-03 14:06:46,461 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1593 ms
+2020-05-03 14:06:47,282 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-03 14:06:47,456 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-03 14:06:48,048 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-03 14:06:48,061 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-03 14:06:48,090 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-03 14:06:48,256 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-03 14:06:48,260 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 4.079 seconds (JVM running for 4.772)
+2020-05-03 14:07:51,610 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-03 14:07:51,610 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-03 14:07:51,619 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 8 ms
+2020-05-03 14:07:51,637 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/user
+2020-05-03 14:07:51,637 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 14:07:51,639 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：getUser
+2020-05-03 14:07:51,646 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 14:07:51,703 [http-nio-8080-exec-1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2020-05-03 14:07:51,854 [http-nio-8080-exec-1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2020-05-03 14:08:55,700 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-03 14:08:55,702 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2020-05-03 14:08:55,715 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2020-05-03 14:09:00,211 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 1272 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-03 14:09:00,214 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-03 14:09:01,072 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-03 14:09:01,074 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-03 14:09:01,093 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-05-03 14:09:01,705 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-03 14:09:01,713 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-03 14:09:01,713 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-03 14:09:01,789 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-03 14:09:01,789 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1526 ms
+2020-05-03 14:09:02,516 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-03 14:09:02,675 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-03 14:09:03,240 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-03 14:09:03,250 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-03 14:09:03,275 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-03 14:09:03,409 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-03 14:09:03,412 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 3.668 seconds (JVM running for 4.22)
+2020-05-03 14:09:07,267 [http-nio-8080-exec-2] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-03 14:09:07,268 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-03 14:09:07,275 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 7 ms
+2020-05-03 14:09:07,292 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/user
+2020-05-03 14:09:07,292 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 14:09:07,293 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：getUser
+2020-05-03 14:09:07,300 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 14:09:40,487 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-03 14:09:44,524 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 1290 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-03 14:09:44,527 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-03 14:09:45,362 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-03 14:09:45,364 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-03 14:09:45,395 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-05-03 14:09:45,951 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-03 14:09:45,958 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-03 14:09:45,958 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-03 14:09:46,024 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-03 14:09:46,024 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1457 ms
+2020-05-03 14:09:46,746 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-03 14:09:46,897 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-03 14:09:47,458 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-03 14:09:47,468 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-03 14:09:47,492 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-03 14:09:47,625 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-03 14:09:47,628 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 3.53 seconds (JVM running for 4.017)
+2020-05-03 14:09:51,823 [http-nio-8080-exec-2] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-03 14:09:51,824 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-03 14:09:51,831 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 7 ms
+2020-05-03 14:09:51,848 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/user
+2020-05-03 14:09:51,849 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 14:09:51,851 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：getUser
+2020-05-03 14:09:51,857 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 14:16:34,752 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-03 14:16:39,974 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 1443 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-03 14:16:39,976 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-03 14:16:40,757 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-03 14:16:40,759 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-03 14:16:40,780 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-05-03 14:16:41,349 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-03 14:16:41,357 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-03 14:16:41,357 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-03 14:16:41,420 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-03 14:16:41,420 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1409 ms
+2020-05-03 14:16:41,827 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.keeper.national.common.util.RedisUtil' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2020-05-03 14:16:41,830 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Stopping service [Tomcat]
+2020-05-03 14:16:41,839 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-03 14:19:05,311 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 1504 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-03 14:19:05,315 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-03 14:19:06,034 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-03 14:19:06,036 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-03 14:19:06,055 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-05-03 14:19:06,636 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-03 14:19:06,644 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-03 14:19:06,645 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-03 14:19:06,720 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-03 14:19:06,720 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1369 ms
+2020-05-03 14:19:07,681 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-03 14:19:07,825 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-03 14:19:08,177 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-03 14:19:08,187 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-03 14:19:08,212 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-03 14:19:08,346 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-03 14:19:08,350 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 3.589 seconds (JVM running for 4.214)
+2020-05-03 14:19:12,133 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-03 14:19:12,133 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-03 14:19:12,141 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 7 ms
+2020-05-03 14:19:12,156 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/user
+2020-05-03 14:19:12,157 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 14:19:12,158 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：getUser
+2020-05-03 14:19:12,165 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 14:19:12,213 [http-nio-8080-exec-1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2020-05-03 14:19:12,317 [http-nio-8080-exec-1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2020-05-03 14:19:12,432 [http-nio-8080-exec-1] INFO  [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+2020-05-03 14:19:12,434 [http-nio-8080-exec-1] INFO  [io.lettuce.core.KqueueProvider] KqueueProvider.java:70 - Starting without optional kqueue library
+2020-05-03 14:19:12,705 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":[{"gender":0,"name":"test","id":1},{"gender":1,"name":"test1","id":2}],"message":"操作成功"}
+2020-05-03 14:19:12,705 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：539毫秒
+2020-05-03 14:19:12,719 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：UNKNOWN，【操作系统】：UNKNOWN，【原始User-Agent】：PostmanRuntime/7.6.0
+2020-05-03 14:40:08,316 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-03 14:40:08,442 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2020-05-03 14:40:08,451 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2020-05-03 20:10:51,668 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 7030 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-03 20:10:51,672 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-03 20:10:52,568 [main] WARN  [o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext] AbstractApplicationContext.java:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'dataSource' defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]: Cannot register bean definition [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=io.shardingsphere.shardingjdbc.spring.boot.SpringBootConfiguration; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [io/shardingsphere/shardingjdbc/spring/boot/SpringBootConfiguration.class]] for bean 'dataSource': There is already [Root bean: class [null]; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] bound.
+2020-05-03 20:10:52,577 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-03 20:11:44,847 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 7052 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-03 20:11:44,851 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-03 20:11:45,790 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-03 20:11:45,792 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-03 20:11:45,811 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-05-03 20:11:46,455 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-03 20:11:46,463 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-03 20:11:46,463 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-03 20:11:46,530 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-03 20:11:46,531 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1450 ms
+2020-05-03 20:11:46,700 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2020-05-03 20:11:46,814 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2020-05-03 20:11:46,823 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-2 - Starting...
+2020-05-03 20:11:46,828 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-2 - Start completed.
+2020-05-03 20:11:47,681 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-03 20:11:47,837 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-03 20:11:48,205 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-03 20:11:48,215 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-03 20:11:48,240 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-03 20:11:48,399 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-03 20:11:48,402 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 4.02 seconds (JVM running for 4.529)
+2020-05-03 20:17:02,328 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-03 20:17:02,329 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-03 20:17:02,337 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 8 ms
+2020-05-03 20:17:02,349 [http-nio-8080-exec-1] WARN  [o.s.w.s.m.support.DefaultHandlerExceptionResolver] AbstractHandlerExceptionResolver.java:199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-03 20:17:14,819 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/insert
+2020-05-03 20:17:14,820 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 20:17:14,822 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：saveUser
+2020-05-03 20:17:14,828 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 20:17:14,882 [http-nio-8080-exec-3] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: master-slave
+2020-05-03 20:17:14,882 [http-nio-8080-exec-3] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQL: INSERT INTO User  ( name,
+gender )  VALUES  ( ?,
+? ) ::: DataSources: master1
+2020-05-03 20:17:14,933 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":true,"message":"操作成功"}
+2020-05-03 20:17:14,936 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：107毫秒
+2020-05-03 20:17:14,950 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：UNKNOWN，【操作系统】：UNKNOWN，【原始User-Agent】：PostmanRuntime/7.6.0
+2020-05-03 20:20:08,918 [http-nio-8080-exec-6] WARN  [o.s.w.s.m.support.DefaultHandlerExceptionResolver] AbstractHandlerExceptionResolver.java:199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2020-05-03 20:20:14,010 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/user
+2020-05-03 20:20:14,011 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 20:20:14,011 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：getUser
+2020-05-03 20:20:14,011 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 20:20:14,030 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: master-slave
+2020-05-03 20:20:14,030 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQL: SELECT  id,name,gender  FROM User ::: DataSources: salve0
+2020-05-03 20:20:14,117 [http-nio-8080-exec-7] INFO  [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+2020-05-03 20:20:14,119 [http-nio-8080-exec-7] INFO  [io.lettuce.core.KqueueProvider] KqueueProvider.java:70 - Starting without optional kqueue library
+2020-05-03 20:20:14,578 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: master-slave
+2020-05-03 20:20:14,578 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQL: SELECT  id,name,gender  FROM User ::: DataSources: salve0
+2020-05-03 20:20:14,582 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":[{"gender":0,"name":"test","id":1},{"gender":1,"name":"test1","id":2},{"gender":1,"name":"sharding-jdbc-test","id":3}],"message":"操作成功"}
+2020-05-03 20:20:14,582 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：570毫秒
+2020-05-03 20:20:14,582 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：UNKNOWN，【操作系统】：UNKNOWN，【原始User-Agent】：PostmanRuntime/7.6.0
+2020-05-03 20:50:53,710 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-03 20:50:53,836 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2020-05-03 20:50:53,840 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2020-05-03 20:50:53,840 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-2 - Shutdown initiated...
+2020-05-03 20:50:53,843 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-2 - Shutdown completed.
+2020-05-03 20:50:58,550 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 7804 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-03 20:50:58,554 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-03 20:50:59,439 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-03 20:50:59,441 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-03 20:50:59,459 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-05-03 20:51:00,070 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-03 20:51:00,077 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-03 20:51:00,078 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-03 20:51:00,140 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-03 20:51:00,141 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1382 ms
+2020-05-03 20:51:00,483 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2020-05-03 20:51:00,585 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2020-05-03 20:51:00,593 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-2 - Starting...
+2020-05-03 20:51:00,598 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-2 - Start completed.
+2020-05-03 20:51:01,428 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-03 20:51:01,574 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-03 20:51:01,913 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-03 20:51:01,922 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-03 20:51:01,961 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-03 20:51:02,098 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-03 20:51:02,101 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 4.063 seconds (JVM running for 4.719)
+2020-05-03 20:52:24,784 [http-nio-8080-exec-2] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-03 20:52:24,784 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-03 20:52:24,793 [http-nio-8080-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 9 ms
+2020-05-03 20:52:24,809 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/user
+2020-05-03 20:52:24,809 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 20:52:24,810 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：getUser
+2020-05-03 20:52:24,817 [http-nio-8080-exec-2] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 20:52:25,347 [http-nio-8080-exec-2] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: sharding
+2020-05-03 20:52:25,348 [http-nio-8080-exec-2] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Logic SQL: SELECT  id,name,gender,age  FROM User
+2020-05-03 20:52:25,348 [http-nio-8080-exec-2] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQLStatement: SelectStatement(super=DQLStatement(super=io.shardingsphere.core.parsing.parser.sql.dql.select.SelectStatement@69a10b89), containStar=false, firstSelectItemStartPosition=8, selectListLastPosition=27, groupByLastPosition=0, items=[CommonSelectItem(expression=id, alias=Optional.absent()), CommonSelectItem(expression=name, alias=Optional.absent()), CommonSelectItem(expression=gender, alias=Optional.absent()), CommonSelectItem(expression=age, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subQueryStatement=null, subQueryStatements=[], subQueryConditions=[])
+2020-05-03 20:52:25,348 [http-nio-8080-exec-2] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM userinfo_0
+2020-05-03 20:52:25,349 [http-nio-8080-exec-2] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM userinfo_1
+2020-05-03 20:52:25,349 [http-nio-8080-exec-2] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM userinfo_0
+2020-05-03 20:52:25,349 [http-nio-8080-exec-2] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM userinfo_1
+2020-05-03 20:54:00,944 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-03 20:54:00,963 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2020-05-03 20:54:00,970 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2020-05-03 20:54:00,971 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-2 - Shutdown initiated...
+2020-05-03 20:54:00,975 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-2 - Shutdown completed.
+2020-05-03 20:54:03,521 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:55 - Starting AdminApplication on mayongzhendeMacBook-Pro.local with PID 7865 (/Users/mayongzhen/macgit/branch/sunshine/admin/target/classes started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine)
+2020-05-03 20:54:03,525 [main] INFO  [com.keeper.national.admin.AdminApplication] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-03 20:54:04,405 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-03 20:54:04,407 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-03 20:54:04,425 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-05-03 20:54:05,031 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8080 (http)
+2020-05-03 20:54:05,039 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2020-05-03 20:54:05,039 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-03 20:54:05,105 [main] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2020-05-03 20:54:05,105 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 1367 ms
+2020-05-03 20:54:05,445 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2020-05-03 20:54:05,549 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2020-05-03 20:54:05,558 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-2 - Starting...
+2020-05-03 20:54:05,563 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-2 - Start completed.
+2020-05-03 20:54:06,385 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-03 20:54:06,530 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-03 20:54:06,879 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-03 20:54:06,888 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-03 20:54:06,912 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-03 20:54:07,050 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-03 20:54:07,053 [main] INFO  [com.keeper.national.admin.AdminApplication] StartupInfoLogger.java:61 - Started AdminApplication in 3.996 seconds (JVM running for 4.466)
+2020-05-03 20:54:21,333 [http-nio-8080-exec-1] INFO  [o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-03 20:54:21,334 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2020-05-03 20:54:21,342 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 8 ms
+2020-05-03 20:54:21,359 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/user
+2020-05-03 20:54:21,360 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 20:54:21,361 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：getUser
+2020-05-03 20:54:21,368 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 20:54:21,897 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: sharding
+2020-05-03 20:54:21,898 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Logic SQL: SELECT  id,name,gender,age  FROM User
+2020-05-03 20:54:21,898 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQLStatement: SelectStatement(super=DQLStatement(super=io.shardingsphere.core.parsing.parser.sql.dql.select.SelectStatement@2aad8ebf), containStar=false, firstSelectItemStartPosition=8, selectListLastPosition=27, groupByLastPosition=0, items=[CommonSelectItem(expression=id, alias=Optional.absent()), CommonSelectItem(expression=name, alias=Optional.absent()), CommonSelectItem(expression=gender, alias=Optional.absent()), CommonSelectItem(expression=age, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subQueryStatement=null, subQueryStatements=[], subQueryConditions=[])
+2020-05-03 20:54:21,899 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:54:21,899 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:54:21,899 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:54:21,900 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:54:22,011 [http-nio-8080-exec-1] INFO  [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+2020-05-03 20:54:22,012 [http-nio-8080-exec-1] INFO  [io.lettuce.core.KqueueProvider] KqueueProvider.java:70 - Starting without optional kqueue library
+2020-05-03 20:54:22,121 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: sharding
+2020-05-03 20:54:22,122 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Logic SQL: SELECT  id,name,gender,age  FROM User
+2020-05-03 20:54:22,122 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQLStatement: SelectStatement(super=DQLStatement(super=io.shardingsphere.core.parsing.parser.sql.dql.select.SelectStatement@2aad8ebf), containStar=false, firstSelectItemStartPosition=8, selectListLastPosition=27, groupByLastPosition=0, items=[CommonSelectItem(expression=id, alias=Optional.absent()), CommonSelectItem(expression=name, alias=Optional.absent()), CommonSelectItem(expression=gender, alias=Optional.absent()), CommonSelectItem(expression=age, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subQueryStatement=null, subQueryStatements=[], subQueryConditions=[])
+2020-05-03 20:54:22,123 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:54:22,123 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:54:22,124 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:54:22,124 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:54:22,138 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":[],"message":"操作成功"}
+2020-05-03 20:54:22,139 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：770毫秒
+2020-05-03 20:54:22,152 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：UNKNOWN，【操作系统】：UNKNOWN，【原始User-Agent】：PostmanRuntime/7.6.0
+2020-05-03 20:54:46,234 [http-nio-8080-exec-3] WARN  [o.s.w.s.m.support.DefaultHandlerExceptionResolver] AbstractHandlerExceptionResolver.java:199 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-05-03 20:54:58,442 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/insert
+2020-05-03 20:54:58,443 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 20:54:58,443 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：saveUser
+2020-05-03 20:54:58,443 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 20:54:58,497 [http-nio-8080-exec-4] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: sharding
+2020-05-03 20:54:58,498 [http-nio-8080-exec-4] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Logic SQL: INSERT INTO User  ( name,
+gender,
+age )  VALUES  ( ?,
+?,
+? )
+2020-05-03 20:54:58,498 [http-nio-8080-exec-4] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQLStatement: InsertStatement(super=DMLStatement(super=io.shardingsphere.core.parsing.parser.sql.dml.insert.InsertStatement@1b2fb375), columns=[Column(name=name, tableName=User), Column(name=gender, tableName=User), Column(name=age, tableName=User)], generatedKeyConditions=[], insertValues=InsertValues(insertValues=[InsertValue(type=VALUES, expression=( ?,
+?,
+? ), parametersCount=3)]), columnsListLastPosition=38, generateKeyColumnIndex=-1, insertValuesListLastPosition=60)
+2020-05-03 20:54:58,499 [http-nio-8080-exec-4] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: INSERT INTO user_0  ( name,
+gender,
+age , id)  VALUES  ( ?,
+?,
+? , ?) ::: [[分库分表, 0, 20, 463809904730177537]]
+2020-05-03 20:54:58,522 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":true,"message":"操作成功"}
+2020-05-03 20:54:58,523 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：80毫秒
+2020-05-03 20:54:58,524 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：UNKNOWN，【操作系统】：UNKNOWN，【原始User-Agent】：PostmanRuntime/7.6.0
+2020-05-03 20:56:27,888 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/user
+2020-05-03 20:56:27,889 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 20:56:27,889 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：getUser
+2020-05-03 20:56:27,889 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 20:56:27,891 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: sharding
+2020-05-03 20:56:27,891 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Logic SQL: SELECT  id,name,gender,age  FROM User
+2020-05-03 20:56:27,891 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQLStatement: SelectStatement(super=DQLStatement(super=io.shardingsphere.core.parsing.parser.sql.dql.select.SelectStatement@2aad8ebf), containStar=false, firstSelectItemStartPosition=8, selectListLastPosition=27, groupByLastPosition=0, items=[CommonSelectItem(expression=id, alias=Optional.absent()), CommonSelectItem(expression=name, alias=Optional.absent()), CommonSelectItem(expression=gender, alias=Optional.absent()), CommonSelectItem(expression=age, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subQueryStatement=null, subQueryStatements=[], subQueryConditions=[])
+2020-05-03 20:56:27,892 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:56:27,892 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:56:27,892 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:56:27,892 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:56:27,904 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: sharding
+2020-05-03 20:56:27,904 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Logic SQL: SELECT  id,name,gender,age  FROM User
+2020-05-03 20:56:27,904 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQLStatement: SelectStatement(super=DQLStatement(super=io.shardingsphere.core.parsing.parser.sql.dql.select.SelectStatement@2aad8ebf), containStar=false, firstSelectItemStartPosition=8, selectListLastPosition=27, groupByLastPosition=0, items=[CommonSelectItem(expression=id, alias=Optional.absent()), CommonSelectItem(expression=name, alias=Optional.absent()), CommonSelectItem(expression=gender, alias=Optional.absent()), CommonSelectItem(expression=age, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subQueryStatement=null, subQueryStatements=[], subQueryConditions=[])
+2020-05-03 20:56:27,905 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:56:27,905 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:56:27,905 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:56:27,906 [http-nio-8080-exec-7] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:56:27,908 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":[{"gender":0,"name":"分库分表","id":463809904730177537,"age":20}],"message":"操作成功"}
+2020-05-03 20:56:27,909 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：20毫秒
+2020-05-03 20:56:27,909 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：UNKNOWN，【操作系统】：UNKNOWN，【原始User-Agent】：PostmanRuntime/7.6.0
+2020-05-03 20:56:53,358 [http-nio-8080-exec-8] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/insert
+2020-05-03 20:56:53,358 [http-nio-8080-exec-8] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 20:56:53,358 [http-nio-8080-exec-8] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：saveUser
+2020-05-03 20:56:53,359 [http-nio-8080-exec-8] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 20:56:53,360 [http-nio-8080-exec-8] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: sharding
+2020-05-03 20:56:53,360 [http-nio-8080-exec-8] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Logic SQL: INSERT INTO User  ( name,
+gender,
+age )  VALUES  ( ?,
+?,
+? )
+2020-05-03 20:56:53,360 [http-nio-8080-exec-8] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQLStatement: InsertStatement(super=DMLStatement(super=io.shardingsphere.core.parsing.parser.sql.dml.insert.InsertStatement@1b2fb375), columns=[Column(name=name, tableName=User), Column(name=gender, tableName=User), Column(name=age, tableName=User)], generatedKeyConditions=[], insertValues=InsertValues(insertValues=[InsertValue(type=VALUES, expression=( ?,
+?,
+? ), parametersCount=3)]), columnsListLastPosition=38, generateKeyColumnIndex=-1, insertValuesListLastPosition=60)
+2020-05-03 20:56:53,360 [http-nio-8080-exec-8] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: INSERT INTO user_1  ( name,
+gender,
+age , id)  VALUES  ( ?,
+?,
+? , ?) ::: [[分库分表, 0, 21, 463810386655707136]]
+2020-05-03 20:56:53,373 [http-nio-8080-exec-8] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":true,"message":"操作成功"}
+2020-05-03 20:56:53,375 [http-nio-8080-exec-8] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：16毫秒
+2020-05-03 20:56:53,376 [http-nio-8080-exec-8] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：UNKNOWN，【操作系统】：UNKNOWN，【原始User-Agent】：PostmanRuntime/7.6.0
+2020-05-03 20:56:58,088 [http-nio-8080-exec-9] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/user
+2020-05-03 20:56:58,089 [http-nio-8080-exec-9] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 20:56:58,090 [http-nio-8080-exec-9] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：getUser
+2020-05-03 20:56:58,091 [http-nio-8080-exec-9] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 20:56:58,092 [http-nio-8080-exec-9] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: sharding
+2020-05-03 20:56:58,093 [http-nio-8080-exec-9] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Logic SQL: SELECT  id,name,gender,age  FROM User
+2020-05-03 20:56:58,093 [http-nio-8080-exec-9] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQLStatement: SelectStatement(super=DQLStatement(super=io.shardingsphere.core.parsing.parser.sql.dql.select.SelectStatement@2aad8ebf), containStar=false, firstSelectItemStartPosition=8, selectListLastPosition=27, groupByLastPosition=0, items=[CommonSelectItem(expression=id, alias=Optional.absent()), CommonSelectItem(expression=name, alias=Optional.absent()), CommonSelectItem(expression=gender, alias=Optional.absent()), CommonSelectItem(expression=age, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subQueryStatement=null, subQueryStatements=[], subQueryConditions=[])
+2020-05-03 20:56:58,094 [http-nio-8080-exec-9] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:56:58,094 [http-nio-8080-exec-9] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:56:58,094 [http-nio-8080-exec-9] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:56:58,094 [http-nio-8080-exec-9] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:56:58,329 [http-nio-8080-exec-9] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: sharding
+2020-05-03 20:56:58,330 [http-nio-8080-exec-9] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Logic SQL: SELECT  id,name,gender,age  FROM User
+2020-05-03 20:56:58,330 [http-nio-8080-exec-9] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQLStatement: SelectStatement(super=DQLStatement(super=io.shardingsphere.core.parsing.parser.sql.dql.select.SelectStatement@2aad8ebf), containStar=false, firstSelectItemStartPosition=8, selectListLastPosition=27, groupByLastPosition=0, items=[CommonSelectItem(expression=id, alias=Optional.absent()), CommonSelectItem(expression=name, alias=Optional.absent()), CommonSelectItem(expression=gender, alias=Optional.absent()), CommonSelectItem(expression=age, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subQueryStatement=null, subQueryStatements=[], subQueryConditions=[])
+2020-05-03 20:56:58,330 [http-nio-8080-exec-9] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:56:58,331 [http-nio-8080-exec-9] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:56:58,331 [http-nio-8080-exec-9] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:56:58,331 [http-nio-8080-exec-9] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:56:58,335 [http-nio-8080-exec-9] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":[{"gender":0,"name":"分库分表","id":463810386655707136,"age":21},{"gender":0,"name":"分库分表","id":463809904730177537,"age":20}],"message":"操作成功"}
+2020-05-03 20:56:58,335 [http-nio-8080-exec-9] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：244毫秒
+2020-05-03 20:56:58,335 [http-nio-8080-exec-9] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：UNKNOWN，【操作系统】：UNKNOWN，【原始User-Agent】：PostmanRuntime/7.6.0
+2020-05-03 20:58:03,596 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/user
+2020-05-03 20:58:03,597 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 20:58:03,597 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：getUser
+2020-05-03 20:58:03,597 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 20:58:03,598 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: sharding
+2020-05-03 20:58:03,598 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Logic SQL: SELECT  id,name,gender,age  FROM User
+2020-05-03 20:58:03,598 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQLStatement: SelectStatement(super=DQLStatement(super=io.shardingsphere.core.parsing.parser.sql.dql.select.SelectStatement@2aad8ebf), containStar=false, firstSelectItemStartPosition=8, selectListLastPosition=27, groupByLastPosition=0, items=[CommonSelectItem(expression=id, alias=Optional.absent()), CommonSelectItem(expression=name, alias=Optional.absent()), CommonSelectItem(expression=gender, alias=Optional.absent()), CommonSelectItem(expression=age, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subQueryStatement=null, subQueryStatements=[], subQueryConditions=[])
+2020-05-03 20:58:03,599 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:58:03,599 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:58:03,599 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:58:03,600 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:58:03,611 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: sharding
+2020-05-03 20:58:03,611 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Logic SQL: SELECT  id,name,gender,age  FROM User
+2020-05-03 20:58:03,612 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQLStatement: SelectStatement(super=DQLStatement(super=io.shardingsphere.core.parsing.parser.sql.dql.select.SelectStatement@2aad8ebf), containStar=false, firstSelectItemStartPosition=8, selectListLastPosition=27, groupByLastPosition=0, items=[CommonSelectItem(expression=id, alias=Optional.absent()), CommonSelectItem(expression=name, alias=Optional.absent()), CommonSelectItem(expression=gender, alias=Optional.absent()), CommonSelectItem(expression=age, alias=Optional.absent())], groupByItems=[], orderByItems=[], limit=null, subQueryStatement=null, subQueryStatements=[], subQueryConditions=[])
+2020-05-03 20:58:03,612 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:58:03,612 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:58:03,613 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_0
+2020-05-03 20:58:03,613 [http-nio-8080-exec-1] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: SELECT  id,name,gender,age  FROM user_1
+2020-05-03 20:58:03,615 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":[{"gender":0,"name":"分库分表","id":463810386655707136,"age":21},{"gender":0,"name":"分库分表","id":463809904730177537,"age":20}],"message":"操作成功"}
+2020-05-03 20:58:03,616 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：19毫秒
+2020-05-03 20:58:03,616 [http-nio-8080-exec-1] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：UNKNOWN，【操作系统】：UNKNOWN，【原始User-Agent】：PostmanRuntime/7.6.0
+2020-05-03 20:58:16,093 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/insert
+2020-05-03 20:58:16,094 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 20:58:16,094 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：saveUser
+2020-05-03 20:58:16,094 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 20:58:16,095 [http-nio-8080-exec-3] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: sharding
+2020-05-03 20:58:16,096 [http-nio-8080-exec-3] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Logic SQL: INSERT INTO User  ( name,
+gender,
+age )  VALUES  ( ?,
+?,
+? )
+2020-05-03 20:58:16,096 [http-nio-8080-exec-3] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQLStatement: InsertStatement(super=DMLStatement(super=io.shardingsphere.core.parsing.parser.sql.dml.insert.InsertStatement@1b2fb375), columns=[Column(name=name, tableName=User), Column(name=gender, tableName=User), Column(name=age, tableName=User)], generatedKeyConditions=[], insertValues=InsertValues(insertValues=[InsertValue(type=VALUES, expression=( ?,
+?,
+? ), parametersCount=3)]), columnsListLastPosition=38, generateKeyColumnIndex=-1, insertValuesListLastPosition=60)
+2020-05-03 20:58:16,096 [http-nio-8080-exec-3] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds1 ::: INSERT INTO user_0  ( name,
+gender,
+age , id)  VALUES  ( ?,
+?,
+? , ?) ::: [[分库分表, 0, 22, 463810733675642881]]
+2020-05-03 20:58:16,112 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":true,"message":"操作成功"}
+2020-05-03 20:58:16,114 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：20毫秒
+2020-05-03 20:58:16,114 [http-nio-8080-exec-3] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：UNKNOWN，【操作系统】：UNKNOWN，【原始User-Agent】：PostmanRuntime/7.6.0
+2020-05-03 20:58:18,873 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:51 - 【请求 URL】：http://localhost:8080/insert
+2020-05-03 20:58:18,874 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:52 - 【请求 IP】：0:0:0:0:0:0:0:1
+2020-05-03 20:58:18,874 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:53 - 【请求类名】：com.keeper.national.admin.web.testController，【请求方法名】：saveUser
+2020-05-03 20:58:18,874 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:56 - 【请求参数】：{}，
+2020-05-03 20:58:18,875 [http-nio-8080-exec-4] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Rule Type: sharding
+2020-05-03 20:58:18,875 [http-nio-8080-exec-4] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Logic SQL: INSERT INTO User  ( name,
+gender,
+age )  VALUES  ( ?,
+?,
+? )
+2020-05-03 20:58:18,876 [http-nio-8080-exec-4] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - SQLStatement: InsertStatement(super=DMLStatement(super=io.shardingsphere.core.parsing.parser.sql.dml.insert.InsertStatement@1b2fb375), columns=[Column(name=name, tableName=User), Column(name=gender, tableName=User), Column(name=age, tableName=User)], generatedKeyConditions=[], insertValues=InsertValues(insertValues=[InsertValue(type=VALUES, expression=( ?,
+?,
+? ), parametersCount=3)]), columnsListLastPosition=38, generateKeyColumnIndex=-1, insertValuesListLastPosition=60)
+2020-05-03 20:58:18,876 [http-nio-8080-exec-4] INFO  [ShardingSphere-SQL] SQLLogger.java:71 - Actual SQL: ds0 ::: INSERT INTO user_1  ( name,
+gender,
+age , id)  VALUES  ( ?,
+?,
+? , ?) ::: [[分库分表, 0, 23, 463810745335808000]]
+2020-05-03 20:58:18,891 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":true,"message":"操作成功"}
+2020-05-03 20:58:18,892 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：18毫秒
+2020-05-03 20:58:18,892 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：UNKNOWN，【操作系统】：UNKNOWN，【原始User-Agent】：PostmanRuntime/7.6.0

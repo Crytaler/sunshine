@@ -23,3 +23,69 @@ mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true
     cache-enabled: true
+spring:
+  redis:
+    host: 192.168.199.243
+    database: 0 # Redis数据库索引（默认为0）
+    port: 6379 # Redis服务器连接端口
+    password: # Redis服务器连接密码（默认为空）
+    jedis:
+      pool:
+        max-active: 8 # 连接池最大连接数（使用负值表示没有限制）
+        max-wait: -1ms # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-idle: 8 # 连接池中的最大空闲连接
+        min-idle: 0 # 连接池中的最小空闲连接
+    timeout: 3000ms # 连接超时时间（毫秒）
+    key:
+      prefix:
+        authCode: "portal:authCode:"
+      expire:
+        authCode: 120 # 验证码超期时间
+  main:
+    allow-bean-definition-overriding: true
+
+sharding:
+  jdbc:
+    datasource:
+#      names: master1,salve0 #主从数据源
+      names: ds0,ds1
+      ds0:
+        type: com.zaxxer.hikari.HikariDataSource
+        hikari:
+          driver-class-name: com.mysql.cj.jdbc.Driver #数据库新的驱动，下面连接url一定要加区时
+        jdbc-url: jdbc:mysql://localhost:3306/sunshine?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+        username: root
+        password: 629436
+      ds1:
+        type: com.zaxxer.hikari.HikariDataSource
+        hikari:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+        jdbc-url: jdbc:mysql://localhost:3306/sunshine_slave?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+        username: root
+        password: 629436
+    config:  #读写分离配置
+#      masterslave:
+#        master-data-source-name: master1 #主数据库配置
+#        slave-data-source-names: salve0 #从数据库配置（多个以逗号隔开）
+#        load-balance-algorithm-type: round_robin # 提供轮询与随机(random)，这里选择用轮询，
+#        name: ms
+        #分库分表策略
+        #分库策略
+      sharding:
+        default-database-strategy:
+          inline:
+            sharding-column: id
+            algorithm-expression: ds$->{id %2}
+        # 分表策略 其中user为逻辑表 分表主要取决于age字段
+        tables:
+          user:
+            actual-data-nodes: ds$->{0..1}.user_$->{0..1}
+            table-strategy:
+              inline:
+                sharding-column: age
+                algorithm-expression: user_$->{age %2} # 分片算法表达式
+            key-generator-column-name: id
+      props:
+        sql:
+          show: true #打印sql日志
+

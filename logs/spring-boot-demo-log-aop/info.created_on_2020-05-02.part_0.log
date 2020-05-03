@@ -463,3 +463,6 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2020-05-02 18:07:04,642 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":[{"gender":0,"name":"test","id":1},{"gender":1,"name":"test1","id":2}],"message":"操作成功"}
 2020-05-02 18:07:04,643 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：190毫秒
 2020-05-02 18:07:04,656 [http-nio-8080-exec-7] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：SAFARI，【操作系统】：MAC_OS_X，【原始User-Agent】：Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+2020-05-02 18:08:54,135 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-02 18:08:54,137 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2020-05-02 18:08:54,146 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
