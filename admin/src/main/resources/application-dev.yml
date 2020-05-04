@@ -43,6 +43,10 @@ spring:
         authCode: 120 # 验证码超期时间
   main:
     allow-bean-definition-overriding: true
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 127.0.0.1:9300
 
 sharding:
   jdbc:
@@ -87,5 +91,5 @@ sharding:
             key-generator-column-name: id
       props:
         sql:
-          show: true #打印sql日志
+          show: true #
 

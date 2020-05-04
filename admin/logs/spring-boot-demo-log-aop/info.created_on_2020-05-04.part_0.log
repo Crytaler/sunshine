@@ -1,0 +1,160 @@
+2020-05-04 15:12:42,542 [main] INFO  [com.keeper.national.admin.esTest] StartupInfoLogger.java:55 - Starting esTest on mayongzhendeMacBook-Pro.local with PID 1622 (started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine/admin)
+2020-05-04 15:12:42,543 [main] INFO  [com.keeper.national.admin.esTest] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-04 15:12:43,686 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-04 15:12:43,689 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-05-04 15:12:43,954 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 257ms. Found 1 Elasticsearch repository interfaces.
+2020-05-04 15:12:43,961 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-04 15:12:43,962 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-05-04 15:12:43,970 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 6ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-05-04 15:12:43,987 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-04 15:12:43,989 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-04 15:12:44,007 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport] RepositoryConfigurationExtensionSupport.java:348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.keeper.national.admin.repository.EsRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-05-04 15:12:44,007 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-05-04 15:12:45,628 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2020-05-04 15:12:45,872 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2020-05-04 15:12:45,883 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-2 - Starting...
+2020-05-04 15:12:45,888 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-2 - Start completed.
+2020-05-04 15:12:47,677 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:197 - no modules loaded
+2020-05-04 15:12:47,680 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-05-04 15:12:47,680 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-05-04 15:12:47,681 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-05-04 15:12:47,681 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-05-04 15:12:47,682 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-05-04 15:12:48,748 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:197 - no modules loaded
+2020-05-04 15:12:48,750 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-05-04 15:12:48,751 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-05-04 15:12:48,751 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-05-04 15:12:48,751 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-05-04 15:12:48,752 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-05-04 15:12:48,922 [main] INFO  [o.s.d.e.client.TransportClientFactoryBean] TransportClientFactoryBean.java:88 - Adding transport node : 127.0.0.1:9300
+2020-05-04 15:12:50,159 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 15:12:50,686 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 15:12:51,586 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-04 15:12:51,608 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-04 15:12:51,646 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-04 15:12:51,816 [main] INFO  [com.keeper.national.admin.esTest] StartupInfoLogger.java:61 - Started esTest in 9.984 seconds (JVM running for 11.558)
+2020-05-04 15:12:52,181 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-04 15:12:52,211 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2020-05-04 15:12:52,223 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2020-05-04 15:12:52,223 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-2 - Shutdown initiated...
+2020-05-04 15:12:52,227 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-2 - Shutdown completed.
+2020-05-04 15:13:14,834 [main] INFO  [com.keeper.national.admin.esTest] StartupInfoLogger.java:55 - Starting esTest on mayongzhendeMacBook-Pro.local with PID 1640 (started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine/admin)
+2020-05-04 15:13:14,837 [main] INFO  [com.keeper.national.admin.esTest] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-04 15:13:15,867 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-04 15:13:15,872 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-05-04 15:13:16,085 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 207ms. Found 1 Elasticsearch repository interfaces.
+2020-05-04 15:13:16,090 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-04 15:13:16,091 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-05-04 15:13:16,098 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 6ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-05-04 15:13:16,112 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-04 15:13:16,116 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-04 15:13:16,149 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport] RepositoryConfigurationExtensionSupport.java:348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.keeper.national.admin.repository.EsRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-05-04 15:13:16,149 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2020-05-04 15:13:17,345 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2020-05-04 15:13:17,536 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2020-05-04 15:13:17,546 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-2 - Starting...
+2020-05-04 15:13:17,551 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-2 - Start completed.
+2020-05-04 15:13:19,103 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:197 - no modules loaded
+2020-05-04 15:13:19,106 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-05-04 15:13:19,107 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-05-04 15:13:19,108 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-05-04 15:13:19,108 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-05-04 15:13:19,108 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-05-04 15:13:20,091 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:197 - no modules loaded
+2020-05-04 15:13:20,095 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-05-04 15:13:20,095 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-05-04 15:13:20,096 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-05-04 15:13:20,096 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-05-04 15:13:20,097 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-05-04 15:13:20,251 [main] INFO  [o.s.d.e.client.TransportClientFactoryBean] TransportClientFactoryBean.java:88 - Adding transport node : 127.0.0.1:9300
+2020-05-04 15:13:20,973 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 15:13:21,403 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 15:13:22,331 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-04 15:13:22,347 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-04 15:13:22,383 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-04 15:13:22,535 [main] INFO  [com.keeper.national.admin.esTest] StartupInfoLogger.java:61 - Started esTest in 8.389 seconds (JVM running for 9.788)
+2020-05-04 15:13:23,000 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-04 15:13:23,022 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2020-05-04 15:13:23,033 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2020-05-04 15:13:23,033 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-2 - Shutdown initiated...
+2020-05-04 15:13:23,038 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-2 - Shutdown completed.
+2020-05-04 15:13:49,090 [main] INFO  [com.keeper.national.admin.esTest] StartupInfoLogger.java:55 - Starting esTest on mayongzhendeMacBook-Pro.local with PID 1657 (started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine/admin)
+2020-05-04 15:13:49,093 [main] INFO  [com.keeper.national.admin.esTest] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-04 15:13:50,105 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-04 15:13:50,107 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-05-04 15:13:50,314 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 199ms. Found 1 Elasticsearch repository interfaces.
+2020-05-04 15:13:50,322 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-04 15:13:50,323 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-05-04 15:13:50,330 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 6ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-05-04 15:13:50,343 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-04 15:13:50,344 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-04 15:13:50,358 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport] RepositoryConfigurationExtensionSupport.java:348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.keeper.national.admin.repository.EsRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-05-04 15:13:50,358 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-05-04 15:13:51,543 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2020-05-04 15:13:51,758 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2020-05-04 15:13:51,769 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-2 - Starting...
+2020-05-04 15:13:51,774 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-2 - Start completed.
+2020-05-04 15:13:53,300 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:197 - no modules loaded
+2020-05-04 15:13:53,303 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-05-04 15:13:53,304 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-05-04 15:13:53,304 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-05-04 15:13:53,304 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-05-04 15:13:53,305 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-05-04 15:13:54,276 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:197 - no modules loaded
+2020-05-04 15:13:54,278 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-05-04 15:13:54,279 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-05-04 15:13:54,279 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-05-04 15:13:54,280 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-05-04 15:13:54,280 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-05-04 15:13:54,468 [main] INFO  [o.s.d.e.client.TransportClientFactoryBean] TransportClientFactoryBean.java:88 - Adding transport node : 127.0.0.1:9300
+2020-05-04 15:13:55,163 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 15:13:55,613 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 15:13:56,619 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-04 15:13:56,638 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-04 15:13:56,673 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-04 15:13:56,821 [main] INFO  [com.keeper.national.admin.esTest] StartupInfoLogger.java:61 - Started esTest in 8.415 seconds (JVM running for 9.645)
+2020-05-04 15:13:57,234 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-04 15:13:57,260 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2020-05-04 15:13:57,270 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2020-05-04 15:13:57,271 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-2 - Shutdown initiated...
+2020-05-04 15:13:57,275 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-2 - Shutdown completed.
+2020-05-04 15:14:38,652 [main] INFO  [com.keeper.national.admin.esTest] StartupInfoLogger.java:55 - Starting esTest on mayongzhendeMacBook-Pro.local with PID 1676 (started by mayongzhen in /Users/mayongzhen/macgit/branch/sunshine/admin)
+2020-05-04 15:14:38,653 [main] INFO  [com.keeper.national.admin.esTest] SpringApplication.java:655 - The following profiles are active: dev
+2020-05-04 15:14:39,679 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-04 15:14:39,684 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2020-05-04 15:14:39,961 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 270ms. Found 1 Elasticsearch repository interfaces.
+2020-05-04 15:14:39,968 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-04 15:14:39,969 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2020-05-04 15:14:39,977 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 8ms. Found 0 Reactive Elasticsearch repository interfaces.
+2020-05-04 15:14:39,990 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-04 15:14:39,992 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-04 15:14:40,005 [main] INFO  [o.s.d.r.c.RepositoryConfigurationExtensionSupport] RepositoryConfigurationExtensionSupport.java:348 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.keeper.national.admin.repository.EsRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-05-04 15:14:40,006 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:187 - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-05-04 15:14:41,153 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2020-05-04 15:14:41,363 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2020-05-04 15:14:41,378 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-2 - Starting...
+2020-05-04 15:14:41,383 [main] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-2 - Start completed.
+2020-05-04 15:14:42,913 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:197 - no modules loaded
+2020-05-04 15:14:42,917 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-05-04 15:14:42,917 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-05-04 15:14:42,918 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-05-04 15:14:42,918 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-05-04 15:14:42,919 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-05-04 15:14:43,882 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:197 - no modules loaded
+2020-05-04 15:14:43,885 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2020-05-04 15:14:43,885 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2020-05-04 15:14:43,886 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2020-05-04 15:14:43,886 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2020-05-04 15:14:43,886 [main] INFO  [org.elasticsearch.plugins.PluginsService] PluginsService.java:200 - loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2020-05-04 15:14:44,048 [main] INFO  [o.s.d.e.client.TransportClientFactoryBean] TransportClientFactoryBean.java:88 - Adding transport node : 127.0.0.1:9300
+2020-05-04 15:14:44,901 [main] INFO  [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] PropertySourcedRequestMappingHandlerMapping.java:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-05-04 15:14:45,405 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-04 15:14:46,311 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:147 - Context refreshed
+2020-05-04 15:14:46,328 [main] INFO  [s.d.s.web.plugins.DocumentationPluginsBootstrapper] DocumentationPluginsBootstrapper.java:150 - Found 1 custom documentation plugin(s)
+2020-05-04 15:14:46,368 [main] INFO  [s.d.spring.web.scanners.ApiListingReferenceScanner] ApiListingReferenceScanner.java:41 - Scanning for api listing references
+2020-05-04 15:14:46,513 [main] INFO  [com.keeper.national.admin.esTest] StartupInfoLogger.java:61 - Started esTest in 8.473 seconds (JVM running for 9.695)
+2020-05-04 15:14:46,864 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-04 15:14:46,892 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2020-05-04 15:14:46,903 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2020-05-04 15:14:46,903 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-2 - Shutdown initiated...
+2020-05-04 15:14:46,907 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-2 - Shutdown completed.

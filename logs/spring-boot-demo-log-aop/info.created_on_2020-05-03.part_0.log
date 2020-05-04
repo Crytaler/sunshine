@@ -422,3 +422,7 @@ age , id)  VALUES  ( ?,
 2020-05-03 20:58:18,891 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:71 - 【返回值】：{"code":200,"data":true,"message":"操作成功"}
 2020-05-03 20:58:18,892 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:85 - 【请求耗时】：18毫秒
 2020-05-03 20:58:18,892 [http-nio-8080-exec-4] INFO  [com.keeper.national.admin.aspect.AopLog] AopLog.java:89 - 【浏览器类型】：UNKNOWN，【操作系统】：UNKNOWN，【原始User-Agent】：PostmanRuntime/7.6.0
+2020-05-03 21:01:31,607 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-03 21:01:31,732 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2020-05-03 21:01:31,736 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
+2020-05-03 21:01:31,737 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-2 - Shutdown initiated...
