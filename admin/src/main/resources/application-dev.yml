@@ -83,6 +83,7 @@ sharding:
         # 分表策略 其中user为逻辑表 分表主要取决于age字段
         tables:
           user:
+            ##数据库以及表总数
             actual-data-nodes: ds$->{0..1}.user_$->{0..1}
             table-strategy:
               inline:
