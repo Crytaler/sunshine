@@ -9,6 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="center_security" />
         <module name="common" />
+        <module name="center_zipkin" />
+        <module name="center_gateway" />
         <module name="admin" />
         <module name="center_server" />
         <module name="portal" />
@@ -16,8 +18,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="admin" target="1.8" />
+      <module name="center_gateway" target="1.8" />
       <module name="center_security" target="1.8" />
       <module name="center_server" target="1.8" />
+      <module name="center_zipkin" target="1.8" />
       <module name="common" target="1.8" />
       <module name="portal" target="1.8" />
       <module name="sunshine" target="1.8" />
@@ -26,8 +30,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="admin" options="-parameters" />
+      <module name="center_gateway" options="-parameters" />
       <module name="center_security" options="-parameters" />
       <module name="center_server" options="-parameters" />
+      <module name="center_zipkin" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="portal" options="-parameters" />
       <module name="sunshine" options="-parameters" />

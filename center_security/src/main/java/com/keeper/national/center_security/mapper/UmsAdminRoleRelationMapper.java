@@ -1,11 +1,9 @@
 package com.keeper.national.center_security.mapper;
 
-import com.keeper.national.center_security.domain.UmsAdminRoleRelation;
-import com.keeper.national.center_security.domain.UmsPermission;
-import com.keeper.national.center_security.domain.UmsResource;
-import com.keeper.national.center_security.domain.UmsRole;
+import com.keeper.national.center_security.domain.*;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
@@ -16,7 +14,7 @@ import java.util.List;
  * @Date 2020/5/5 下午2:23
  * @Version 1.0
  **/
-
+@Component
 @Mapper
 public interface UmsAdminRoleRelationMapper {
 
