@@ -8,12 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="center_security" />
+        <module name="center_server_nacos" />
         <module name="common" />
+        <module name="portal" />
         <module name="center_zipkin" />
         <module name="center_gateway" />
-        <module name="admin" />
         <module name="center_server" />
-        <module name="portal" />
+        <module name="admin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -21,6 +22,7 @@
       <module name="center_gateway" target="1.8" />
       <module name="center_security" target="1.8" />
       <module name="center_server" target="1.8" />
+      <module name="center_server_nacos" target="1.8" />
       <module name="center_zipkin" target="1.8" />
       <module name="common" target="1.8" />
       <module name="portal" target="1.8" />
@@ -33,6 +35,7 @@
       <module name="center_gateway" options="-parameters" />
       <module name="center_security" options="-parameters" />
       <module name="center_server" options="-parameters" />
+      <module name="center_server_nacos" options="-parameters" />
       <module name="center_zipkin" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="portal" options="-parameters" />

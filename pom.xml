@@ -23,6 +23,7 @@
         <module>center_security</module>
         <module>center_server</module>
         <module>center_gateway</module>
+        <module>center_server_nacos</module>
     </modules>
 
 

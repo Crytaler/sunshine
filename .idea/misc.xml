@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/admin/pom.xml" />
         <option value="$PROJECT_DIR$/portal/pom.xml" />
         <option value="$PROJECT_DIR$/center_gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/center_server_nacos/pom.xml" />
       </list>
     </option>
   </component>
