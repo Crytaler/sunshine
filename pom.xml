@@ -24,6 +24,8 @@
         <module>center_server</module>
         <module>center_gateway</module>
         <module>center_server_nacos</module>
+        <module>netty_client</module>
+        <module>netty_server</module>
     </modules>
 
 
