@@ -10,6 +10,17 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/Test
+    servlet:
+      multipart:
+        #是否支持批量上传
+        enabled: true
+        #上传文件最大为 100M
+        max-file-size: 100MB
+        #上传总数据大小 200M
+        max-request-size: 200MB
 
 #eureka:
 #  instance:
