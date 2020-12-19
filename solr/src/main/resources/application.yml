@@ -1,0 +1,7 @@
+server:
+  port: 5920
+
+spring:
+  data:
+    solr:
+      host: http://127.0.0.1:8983/solr

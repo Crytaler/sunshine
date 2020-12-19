@@ -26,6 +26,7 @@
         <module>center_server_nacos</module>
         <module>netty_client</module>
         <module>netty_server</module>
+        <module>solr</module>
     </modules>
 
 
